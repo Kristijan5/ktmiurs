@@ -458,13 +458,6 @@ void display_write(uint8_t address) {
 
 }
 
-void display_on() {
-
-	display_start();
-	display_write(TM1637_ADDRESS3 + 0x0F);
-	display_stop();
-}
-
 void dec_to_display(uint16_t num) {
 	for (int i = 0; i < 3; i++) {
 		digit_array[i] = 0;
