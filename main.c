@@ -122,7 +122,6 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_USART2_UART_Init();
   MX_TIM13_Init();
   MX_TIM14_Init();
   MX_TIM2_Init();
