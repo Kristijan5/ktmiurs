@@ -444,7 +444,6 @@ void display_write(uint8_t address) {
 
 
 	clk_set(0);
-	dio_set(1);
 	delay_micro(100);
 
 
